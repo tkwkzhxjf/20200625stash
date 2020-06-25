@@ -1,7 +1,12 @@
 class B {
-private String name;
-pubilc static int no;
-public B(String name){
-this.name = name;
-}
-}
+     private String name;
+     pubilc static int no;
+
+       static{
+          no = 10;
+       }
+
+       public B(String name){
+          this.name = name;
+       }
+  }
